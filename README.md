@@ -4,3 +4,4 @@
 - [Delegate](delegate.py)
 - [Facade](facade.py)
 - [Factory Method](factory_method.py)
+- [Builder](builder.py)

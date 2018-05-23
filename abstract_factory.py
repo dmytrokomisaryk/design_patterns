@@ -1,7 +1,7 @@
 import abc
 
 # Abstract Factory
-class AbstractEngineersFactory(metaclass=abc.ABCMeta):
+class AbstractEngineersFactory(abc.ABC):
 
     @abc.abstractmethod
     def add_primary_skill(self):
@@ -15,13 +15,13 @@ class AbstractEngineersFactory(metaclass=abc.ABCMeta):
         print(f'Primary skill is {self.primary_skill.to_show()}. Tools are {self.tools.to_show()}.')
 
 # Interfaces
-class AbstractPrimarySkill(metaclass=abc.ABCMeta):
+class AbstractPrimarySkill(abc.ABC):
 
     @abc.abstractmethod
     def to_show(self):
         pass
 
-class AbstractTools(metaclass=abc.ABCMeta):
+class AbstractTools(abc.ABC):
 
     @abc.abstractmethod
     def to_show(self):
