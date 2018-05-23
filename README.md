@@ -5,3 +5,4 @@
 - [Facade](facade.py)
 - [Factory Method](factory_method.py)
 - [Builder](builder.py)
+- [Prototype](prototype.py)
