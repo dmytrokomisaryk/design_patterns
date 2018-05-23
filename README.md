@@ -1,3 +1,4 @@
-# design_patterns
+# Design patterns
 
-- [Abstract Factory](https://github.com/dmytrokomisaryk/design_patterns/blob/master/abstract_factory.py)
+- [Abstract Factory](abstract_factory.py)
+- [Delegate](delegate.py)
