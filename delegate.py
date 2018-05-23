@@ -1,4 +1,5 @@
 class Engineer:
+
     def implement(self):
         print('Task has been done')
 
@@ -6,6 +7,7 @@ class Engineer:
         print('Investigation has been done')
 
 class TemaLead:
+
     def __init__(self):
         self.team_member = Engineer()
 
@@ -18,3 +20,4 @@ class TemaLead:
 team_lead = TemaLead()
 team_lead.implement()
 team_lead.invistigate()
+

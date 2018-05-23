@@ -22,6 +22,7 @@ class Customer:
 
 # Facade
 class ProjectManager:
+
     def __init__(self):
         self.team_lead = TeamLead()
         self.customer = Customer()
@@ -42,3 +43,4 @@ project_manager = ProjectManager()
 project_manager.start_project()
 project_manager.start_sprint()
 project_manager.deliver_release()
+
