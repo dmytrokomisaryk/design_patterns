@@ -8,3 +8,4 @@
 - [Prototype](prototype.py)
 - [Composite](composite.py)
 - [Decorator](decorator.py)
+- [Command](command.py)
