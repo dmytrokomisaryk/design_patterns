@@ -1,6 +1,6 @@
 import abc
 
-class Title():
+class Title:
 
     def show():
         pass
@@ -30,3 +30,4 @@ class RoleDecorator(TitleDecorator):
 
 title = SeniorityDecorator(RoleDecorator(EmployeeTitle()))
 print(title.show()) #Senior Python Engineer
+

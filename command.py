@@ -1,6 +1,6 @@
 import abc
 
-class Project():
+class Project:
 
     def gather_requirements(self):
         print('Gather requirements')
@@ -36,7 +36,7 @@ class DeliverRelease(AbstractCommand):
     def perform(self):
         self.project.deliver_release()
 
-class ProjectManager():
+class ProjectManager:
     gather_requirements = ''
     start_sprint = ''
     deliver_release = ''
@@ -61,3 +61,4 @@ project_manager = ProjectManager(GatherRequirements(project),StartSprint(project
 project_manager.gather_project_requirements() #Gather requirements
 project_manager.start_project_sprint() #Start sprint
 project_manager.deliver_project_release() #Deliver release
+

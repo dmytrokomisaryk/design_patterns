@@ -9,3 +9,4 @@
 - [Composite](composite.py)
 - [Decorator](decorator.py)
 - [Command](command.py)
+- [Chain](chain.py)

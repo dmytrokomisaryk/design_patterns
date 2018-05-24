@@ -40,3 +40,4 @@ project_composite.work()
 print('to dismiss project manager')
 project_composite.removeEmployee(pm)
 project_composite.work()
+

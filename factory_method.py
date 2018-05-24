@@ -36,4 +36,3 @@ task_creator = DevelopmentTaskCreator() # or TestingTaskCreator()
 task = task_creator.create_task()
 task.title()
 
-
