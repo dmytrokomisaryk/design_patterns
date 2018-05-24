@@ -65,13 +65,10 @@ class RubyEngineerFactory(AbstractEngineersFactory):
     def add_tools(self):
         self.tools = RubyTools()
 
-python_engineer = PythonEngineerFactory()
-python_engineer.add_primary_skill()
-python_engineer.add_tools()
-python_engineer.self_present()
+engineer = PythonEngineerFactory() # RubyEngineerFactory()
 
-ruby_engineer = RubyEngineerFactory()
-ruby_engineer.add_primary_skill()
-ruby_engineer.add_tools()
-ruby_engineer.self_present()
+# main logic will not be changed
+engineer.add_primary_skill()
+engineer.add_tools()
+engineer.self_present()
 

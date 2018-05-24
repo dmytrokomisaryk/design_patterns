@@ -6,3 +6,4 @@
 - [Factory Method](factory_method.py)
 - [Builder](builder.py)
 - [Prototype](prototype.py)
+- [Composite](composite.py)
