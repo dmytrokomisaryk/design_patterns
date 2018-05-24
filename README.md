@@ -7,3 +7,4 @@
 - [Builder](builder.py)
 - [Prototype](prototype.py)
 - [Composite](composite.py)
+- [Decorator](decorator.py)
