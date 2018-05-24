@@ -70,5 +70,5 @@ engineer = PythonEngineerFactory() # RubyEngineerFactory()
 # main logic will not be changed
 engineer.add_primary_skill()
 engineer.add_tools()
-engineer.self_present()
+engineer.self_present() # Primary skill is Python. Tools are Sublime, BitBucket, PyLint.
 

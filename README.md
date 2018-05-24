@@ -10,3 +10,4 @@
 - [Decorator](decorator.py)
 - [Command](command.py)
 - [Chain](chain.py)
+- [Adapter](adapter.py)

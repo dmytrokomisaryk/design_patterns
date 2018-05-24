@@ -40,7 +40,7 @@ class ProjectManager:
         self.customer.test_release()
 
 project_manager = ProjectManager()
-project_manager.start_project()
-project_manager.start_sprint()
-project_manager.deliver_release()
+project_manager.start_project() # Team is ready. \n Details has been sent.
+project_manager.start_sprint() # Stories are ready for development. \n asks assigned to engineers.
+project_manager.deliver_release() # All tasks are successfully done! \n Release is success!
 

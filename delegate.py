@@ -18,6 +18,6 @@ class TemaLead:
         return self.team_member.invistigate()
 
 team_lead = TemaLead()
-team_lead.implement()
-team_lead.invistigate()
+team_lead.implement() # Task has been done
+team_lead.invistigate() # Investigation has been done
 

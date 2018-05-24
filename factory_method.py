@@ -20,12 +20,12 @@ class TaskCreator:
     def create_task(self):
         pass
 
-class DevelopmentTaskCreator:
+class DevelopmentTaskCreator(TaskCreator):
 
     def create_task(self):
         return DevelopmentTask()
 
-class TestingTaskCreator:
+class TestingTaskCreator(TaskCreator):
 
     def create_task(self):
         return TestingTask()
@@ -34,5 +34,5 @@ task_creator = DevelopmentTaskCreator() # or TestingTaskCreator()
 
 # main logic will not be chaged
 task = task_creator.create_task()
-task.title()
+task.title() # Tech task
 

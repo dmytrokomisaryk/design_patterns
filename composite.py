@@ -1,31 +1,31 @@
 class Employee:
-  def work():
-    pass
+    def work():
+      pass
 
 class ProjectManager(Employee):
-  def work(self):
-    print('Managmening..,')
+    def work(self):
+      print('Managmening..,')
 
 class QaEngineer(Employee):
-  def work(self):
-    print('Testing...')
+    def work(self):
+        print('Testing...')
 
 class SoftwareEngineer(Employee):
-  def work(self):
-    print('Developing...')
+    def work(self):
+        print('Developing...')
 
 class ProjectComposite:
-  employees = [] #components
+    employees = [] #components
 
-  def addEmployee(self, employee):
-    self.employees.append(employee)
+    def addEmployee(self, employee):
+        self.employees.append(employee)
 
-  def removeEmployee(self, employee):
-    self.employees.remove(employee)
+    def removeEmployee(self, employee):
+        self.employees.remove(employee)
 
-  def work(self):
-    for employee in self.employees:
-      employee.work()
+    def work(self):
+        for employee in self.employees:
+            employee.work()
 
 pm = ProjectManager()
 qa = QaEngineer()
