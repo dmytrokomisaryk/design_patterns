@@ -12,7 +12,7 @@ class Project:
         print('Deliver release')
 
 class AbstractCommand(abc.ABC):
-    project = ''
+    project = None
 
     def __init__(self, project):
         self.project = project
@@ -37,9 +37,9 @@ class DeliverRelease(AbstractCommand):
         self.project.deliver_release()
 
 class ProjectManager:
-    gather_requirements = ''
-    start_sprint = ''
-    deliver_release = ''
+    gather_requirements = None
+    start_sprint = None
+    deliver_release = None
 
     def __init__(self, gr, ss, dr):
         self.gather_requirements = gr

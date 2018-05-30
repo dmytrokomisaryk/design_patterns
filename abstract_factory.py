@@ -2,6 +2,8 @@ import abc
 
 # Abstract Factory
 class AbstractEngineersFactory(abc.ABC):
+    primary_skill = None
+    tools = None
 
     @abc.abstractmethod
     def add_primary_skill(self):

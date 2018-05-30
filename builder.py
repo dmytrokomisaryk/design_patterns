@@ -1,8 +1,8 @@
 import abc
 
 class Task:
-    title = ''
-    description = ''
+    title = None
+    description = None
     estimate = 0
 
     def set_title(self, txt):
@@ -16,7 +16,7 @@ class Task:
 
 # Abstract class
 class TaskBuilder(abc.ABC):
-    task = ''
+    task = None
 
     def create_task(self):
         self.task = Task()
@@ -60,7 +60,7 @@ class BugBuilder(TaskBuilder):
         self.task.set_estimate(16)
 
 class TaskCreator:
-    task_builder = ''
+    task_builder = None
 
     def set_builder(self, builder):
         self.task_builder = builder

@@ -1,6 +1,6 @@
 class DevBranch:
     version = 0
-    author = ''
+    author = None
 
     def commit(self, version, author):
         self.version = version
@@ -17,8 +17,8 @@ class DevBranch:
         return f'version: {self.version}, author: {self.author}'
 
 class Push:
-    version = ''
-    author = ''
+    version = None
+    author = None
 
     def __init__(self, version, author):
         self.version = version
@@ -41,7 +41,7 @@ class Push:
         self._author = author
 
 class Git:
-    push = ''
+    push = None
 
     def set_commit(self, push):
         self.push = push

@@ -1,8 +1,8 @@
 import abc
 
 class User(abc.ABC):
-    chat = ''
-    name = ''
+    chat = None
+    name = None
 
     def __init__(self, chat, name):
         self.chat = chat
@@ -32,7 +32,7 @@ class Chat(abc.ABC):
         pass
 
 class TextChat(Chat):
-    admin = ''
+    admin = None
     users = []
 
     def set_admin(self, admin):

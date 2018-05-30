@@ -4,10 +4,10 @@ class Cloneable:
         pass
 
 class Server(Cloneable):
-    os = ''
-    cpu = ''
-    ram = ''
-    hdd = ''
+    os = None
+    cpu = None
+    ram = None
+    hdd = None
 
     def __init__(self, os, cpu, ram, hdd):
         self.os = os
@@ -27,7 +27,7 @@ print(f'{server_clone.os}, {server_clone.cpu}, {server_clone.ram}, {server_clone
 
 # to use with factory
 class ServerFactory:
-    server = ''
+    server = None
 
     def __init__(self, server):
         self.set_prototype(server)

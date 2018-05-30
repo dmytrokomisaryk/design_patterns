@@ -6,8 +6,8 @@ class Level:
     INFO  = 3
 
 class AbstratractLogger(abc.ABC):
-    priority = ''
-    next = ''
+    priority = None
+    next = None
 
     def __init__(self, priority):
         self.priority = priority

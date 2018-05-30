@@ -11,7 +11,7 @@ class EmployeeTitle(Title):
         return 'Python'
 
 class TitleDecorator(abc.ABC, Title):
-    title = ''
+    title = None
 
     def __init__(self, title):
         self.title = title

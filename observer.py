@@ -1,6 +1,6 @@
 class PullRequest: #observer
-    pr_version = ''
-    author = ''
+    pr_version = None
+    author = None
     reviewers = []
 
     def add_commit(self, pr_version, author):
