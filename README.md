@@ -12,5 +12,6 @@
 - [Factory Method](factory_method.py)
 - [Mediator](mediator.py)
 - [Memento](memento.py)
+- [Observer](observer.py)
 - [Prototype](prototype.py)
 
