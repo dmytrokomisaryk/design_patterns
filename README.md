@@ -15,5 +15,6 @@
 - [Observer](observer.py)
 - [Prototype](prototype.py)
 - [State](state.py)
+- [Strategy](strategy.py)
 - [Template method](template_method.py)
 
