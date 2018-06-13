@@ -10,6 +10,7 @@
 - [Delegate](delegate.py)
 - [Facade](facade.py)
 - [Factory Method](factory_method.py)
+- [Iterator](iterator.py)
 - [Mediator](mediator.py)
 - [Memento](memento.py)
 - [Observer](observer.py)
